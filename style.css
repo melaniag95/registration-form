@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Crimson Text', serif;
+  background-color: #D6E9FE;
+  color: #5D6063;
+}
+
+.container{
+  width: 700px;
+  margin:auto;
+}
+
+#title{
+  font-size: 38px;
+}
+
+#description{
+  font-size: 20px;
+}
+
+#intro{
+  text-align: center;
+}
+
+#intro, #form-container{
+  border: 1px solid #5D6063;
+  padding:30px;
+  margin: 40px 0;
+  border-radius: 4px;
+  background-color: white;
+}
+
+#form-container, p{
+  font-size: 20px;
+}
+
+.row{
+  margin: 10px 10px 20px 10px;
+}
+
+#email-label{
+  margin-right: 32px;
+}
+
+#number-label{
+  margin-right: 26px;
+}
+
+#city{
+  margin-right: 45px;
+}
+
+#country{
+  margin-right: 14px;
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+ .radio-option{
+   margin: 2px;
+ }
+
+ .row button {
+   border: none;
+   font-size: 16px;
+   font-weight: bold;
+   color: #FFFFFF;
+   background-color: #5995DA;
+   border-radius: 3px;
+   padding: 10px 40px;
+   margin-top: 30px;
+}
+
+.register-button{
+  display: flex;
+  justify-content: center;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+}
